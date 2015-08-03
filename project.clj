@@ -1,5 +1,5 @@
-(defproject units "0.1.0-SNAPSHOT"
-  :description "Unit conversions in clojure"
+(defproject io.ramekin/units "0.1.0"
+  :description "Unit conversion in clojure"
   :url "https://github.com/ramekin-io/units"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
