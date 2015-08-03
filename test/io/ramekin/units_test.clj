@@ -1,6 +1,6 @@
-(ns units.core-test
+(ns io.ramekin.units-test
   (:require [clojure.test :refer :all]
-            [units.core :refer :all]))
+            [io.ramekin.units :refer :all]))
 
 (deftest test-convert
   (testing "Big Decimal always returned"

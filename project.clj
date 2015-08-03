@@ -1,4 +1,4 @@
-(defproject io.ramekin/units "0.1.0"
+(defproject io.ramekin/units "0.1.1"
   :description "Unit conversion in clojure"
   :url "https://github.com/ramekin-io/units"
   :license {:name "Eclipse Public License"

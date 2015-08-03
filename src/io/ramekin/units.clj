@@ -1,4 +1,4 @@
-(ns units.core
+(ns io.ramekin.units
   (:require [clojure.string :refer [trim]]
             [me.raynes.conch :as sh]))
 
