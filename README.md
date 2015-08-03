@@ -3,8 +3,8 @@
 A clojure library for mathing some units together.
 
 ```clojure
-(convert 50 :millennium :days) # => 365242.2M
-(convert    :km         :clicks ) # => 1
+(convert 50 :millennium :days   ) # => 365242.2M
+(convert    :km         :clicks ) # => 1M
 ```
 
 This library outsorces it's mathing to the awesome gnu [`units(1)`](http://www.gnu.org/software/units/) program.
@@ -29,6 +29,9 @@ Anything you can do with `units <first> <second> --terse` is fair game.
 ```clojure
 (ns my.project
   (:require [io.ramekin.units :refer [convert]]))
+
+;; Note -- appending "M" to a number is clojure's way of 
+;;   denoting type 'BigDecimal'
 
 ;; Volume
 (convert 50 :liters :quarts) # => 52.8344100M
